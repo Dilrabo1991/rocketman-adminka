@@ -1,0 +1,82 @@
+.bodyProduct {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 30px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.footerBtns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.editIconButton {
+    background-color: rgba(0, 128, 0, 0.573);
+    padding: 4px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.success {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(177, 241, 180);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(7, 197, 16);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.defeat {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(243, 184, 184);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(231, 16, 16);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.rc-table-cell {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #D2D2D2;
+}
+
+.rc-table {
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    overflow: hidden;
+}

@@ -1,0 +1,69 @@
+.muTable {
+    width: 100vw;
+}
+
+.editIconButton {
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: none;
+}
+
+.delitIconButton {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: none;
+}
+
+.success {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(177, 241, 180);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(7, 197, 16);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.defeat {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(243, 184, 184);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(231, 16, 16);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footerBtns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,30 @@
+.body {
+    width: 100vw;
+    padding: 30px;
+
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.footerBtns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
