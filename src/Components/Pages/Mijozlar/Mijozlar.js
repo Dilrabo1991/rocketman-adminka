@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './client.module.scss'
 import Table from 'rc-table'
-import { RowL, RowR } from '../../svg'
-import SidebarTop from '../../SidebarTop.jsx/Sidebar'
+import { Plusicon, RowL, RowR } from '../../svg'
+import { Link } from 'react-router-dom'
 
 export default function Mijozlar() {
 
@@ -77,7 +77,16 @@ export default function Mijozlar() {
 
     return <>
         <div className={style.body}>
-            <SidebarTop />
+            <div className={style.topSidebar}>
+                <div className={style.title}>
+                    <Link>home / </Link>
+                    kategoriya
+                </div>
+
+                <button className={style.button}>Qo'shish
+                    <Plusicon />
+                </button>
+            </div>
             < Table footer={() => (
                 <div className={style.footerBtns}>
                     <button className={style.btn}>

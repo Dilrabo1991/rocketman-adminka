@@ -1,5 +1,5 @@
 .body {
-    width: 100vw;
+    width: 100%;
     padding: 30px;
 }
 
@@ -10,4 +10,77 @@
     transition: 0.5s;
     flex-direction: column;
     box-sizing: border-box;
+}
+
+.topSidebar {
+    width: 100wv;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title a {
+    opacity: 0.5;
+}
+
+.button {
+    width: 146px;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--green, #3EB597);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    color: #fff;
+}
+
+.wpapper {
+    position: relative;
+}
+
+.modal {
+    position: absolute;
+    top: -71px;
+    left: -235px;
+    min-width: 127.2%;
+    height: 107.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+    // transform: translate(-50%, -50%);
+    width: 470px;
+    height: 406px;
+    background: #FFF;
+}
+
+.modalHeader {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.modalClose {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+    background: #3EB597;
+    margin-right: -30px;
+    margin-top: -30px;
+
+    &:hover {
+        opacity: 1;
+
+    }
 }

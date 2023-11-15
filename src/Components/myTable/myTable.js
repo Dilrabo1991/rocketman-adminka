@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
 import Table from 'rc-table'
 import style from './myTable.module.scss'
 import { IconDelit, IconEdit, RowL, RowR } from '../svg';
-import request from '../../services/request';
+
 
 
 export default function MyTable() {

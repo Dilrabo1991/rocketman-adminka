@@ -1,11 +1,11 @@
 
 import React from 'react'
 
-import { IconEdit, RowL, RowR } from '../../svg';
-import SidebarTop from '../../SidebarTop.jsx/Sidebar';
+import { IconEdit, Plusicon, RowL, RowR } from '../../svg';
 import style from './style.module.css'
 import Table from 'rc-table';
 import Switches from '../../Switch/switch';
+import { Link } from 'react-router-dom';
 export default function Maxsulotlar() {
 
     const data = [
@@ -24,7 +24,16 @@ export default function Maxsulotlar() {
 
     return <>
         <div className={style.bodyProduct}>
-            <SidebarTop />
+            <div className={style.topSidebar}>
+                <div className={style.title}>
+                    <Link>home / </Link>
+                    kategoriya
+                </div>
+
+                <button className={style.button}>Qo'shish
+                    <Plusicon />
+                </button>
+            </div>
             <Table className={style.table} footer={() => (
                 <div className={style.footerBtns}>
                     <button className={style.btn}>

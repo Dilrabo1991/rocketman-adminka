@@ -80,3 +80,27 @@
     background: #FFF;
     overflow: hidden;
 }
+
+.topSidebar {
+    width: 100wv;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title a {
+    opacity: 0.5;
+}
+
+.button {
+    width: 146px;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--green, #3EB597);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    color: #fff;
+}
